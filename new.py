@@ -10,7 +10,7 @@ data = [(1,"Alice", "HR", 125000),
         (3,"Charlie", "IT", 80000),
         (4,"Dan", "IT", 85000),
         (5,"Eve", "IT", 75000),
-        (6,"Frank", "HR", 70000)]
+        (6,"Frank", "HR", 80000)]
 
 columns = ["id", "Name", "dept", "salary"]
 df = spark.createDataFrame(data=data, schema=columns)
